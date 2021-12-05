@@ -1,0 +1,103 @@
+html {
+    background-color: rgb(70, 66, 66);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    background-color: rgb(182, 151, 112);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 25px;
+    padding-top: 10px ;
+    background-color: rgb(158, 116, 96);
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    background-color: burlywood;
+    border: 10px, brown;
+}
+
+h1 {
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: 'Calligraffitti', cursive;
+    font-family: 'Rye', cursive;
+}
+
+.bullseye {
+    background:repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    padding: 10px;
+    filter: sepia(0.7);
+    align-content: center;
+}
+
+.pilgrim {
+    font-size:x-large; 
+    text-align: center;
+    background-color: rgb(145, 129, 116);
+    padding: 0.1px;
+}
+
+.pilgrim p {
+    text-shadow: 1px 1px rgb(155, 127, 94);
+}
+
+.draw {
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(70, 66, 66);;
+    height: 330px;
+    filter: sepia(0.2);
+    align-content: center;
+    margin-top: 60px;
+}
+
+ul {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none;
+}
+
+.wanted {
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+    filter: sepia(0.5);
+    padding-left: 125px
+}
+
+footer {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.poster {
+    text-align: center;
+}
+
+.text {
+    padding-top: 40px;
+}
+
+.text li {
+    text-shadow: 1px 1px rgb(43, 43, 43);
+    font-size: larger;
+}
+
+.container {
+    padding-right: 60px;
+    padding-top: 30px;
+}

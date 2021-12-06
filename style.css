@@ -10,15 +10,6 @@ body {
     padding-right: 10%;
 }
 
-.row {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 25px;
-    padding-top: 10px ;
-    background-color: rgb(158, 116, 96);
-}
-
 header {
     text-align: center;
     align-items: center;
@@ -33,25 +24,21 @@ h1 {
     font-family: 'Rye', cursive;
 }
 
-.bullseye {
-    background:repeating-radial-gradient(red, red 10%, white 10%, white 20%);
-    height: 400px;
-    width: 400px;
-    border-radius: 100%;
-    padding: 10px;
-    filter: sepia(0.7);
-    align-content: center;
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 25px;
+    padding-top: 10px ;
+    background-color: rgb(158, 116, 96);
 }
+
 
 .pilgrim {
     font-size:x-large; 
     text-align: center;
     background-color: rgb(145, 129, 116);
     padding: 0.1px;
-}
-
-.pilgrim p {
-    text-shadow: 1px 1px rgb(155, 127, 94);
 }
 
 .draw {
@@ -62,6 +49,26 @@ h1 {
     filter: sepia(0.2);
     align-content: center;
     margin-top: 60px;
+}
+
+
+.container {
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+.bullseye {
+    background:repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    padding: 10px;
+    filter: sepia(0.7);
+    align-content: center;
+}
+
+.pilgrim p {
+    text-shadow: 1px 1px rgb(155, 127, 94);
 }
 
 ul {
@@ -79,11 +86,6 @@ ul {
     padding-left: 125px
 }
 
-footer {
-    background-color: burlywood;
-    text-align: center;
-}
-
 .poster {
     text-align: center;
 }
@@ -92,12 +94,12 @@ footer {
     padding-top: 40px;
 }
 
+footer {
+    background-color: burlywood;
+    text-align: center;
+}
+
 .text li {
     text-shadow: 1px 1px rgb(43, 43, 43);
     font-size: larger;
-}
-
-.container {
-    padding-right: 60px;
-    padding-top: 30px;
 }
